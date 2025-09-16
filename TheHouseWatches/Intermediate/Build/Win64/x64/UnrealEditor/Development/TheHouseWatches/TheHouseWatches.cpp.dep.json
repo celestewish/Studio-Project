@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\laure\\onedrive\\documents\\unreal projects\\thehousewatches\\source\\thehousewatches\\thehousewatches.cpp",
+        "Source": "c:\\users\\aidan\\onedrive\\coding\\thehousewatches\\studio-project\\thehousewatches\\source\\thehousewatches\\thehousewatches.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\laure\\onedrive\\documents\\unreal projects\\thehousewatches\\intermediate\\build\\win64\\x64\\thehousewatcheseditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "PCH": "c:\\users\\aidan\\onedrive\\coding\\thehousewatches\\studio-project\\thehousewatches\\intermediate\\build\\win64\\x64\\thehousewatcheseditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
         "Includes": [
-            "c:\\users\\laure\\onedrive\\documents\\unreal projects\\thehousewatches\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\thehousewatches\\definitions.thehousewatches.h",
-            "c:\\users\\laure\\onedrive\\documents\\unreal projects\\thehousewatches\\source\\thehousewatches\\thehousewatches.h"
+            "c:\\users\\aidan\\onedrive\\coding\\thehousewatches\\studio-project\\thehousewatches\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\thehousewatches\\definitions.thehousewatches.h",
+            "c:\\users\\aidan\\onedrive\\coding\\thehousewatches\\studio-project\\thehousewatches\\source\\thehousewatches\\thehousewatches.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
