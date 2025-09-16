@@ -36,13 +36,18 @@
 /FUNCTIONPADMIN:6
 /NOIMPLIB
 /NOEXP
-"C:/Users/laure/OneDrive/Documents/Unreal Projects/TheHouseWatches/Intermediate/Build/Win64/x64/TheHouseWatchesEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
-"C:/Users/laure/OneDrive/Documents/Unreal Projects/TheHouseWatches/Intermediate/Build/Win64/x64/UnrealEditor/Development/TheHouseWatches/TheHouseWatches.cpp.obj"
-"C:/Users/laure/OneDrive/Documents/Unreal Projects/TheHouseWatches/Intermediate/Build/Win64/x64/UnrealEditor/Development/TheHouseWatches/PerModuleInline.gen.cpp.obj"
-"C:/Users/laure/OneDrive/Documents/Unreal Projects/TheHouseWatches/Intermediate/Build/Win64/x64/UnrealEditor/Development/TheHouseWatches/Default.rc2.res"
+"C:/Users/laure/OneDrive/Desktop/TheHouseWatches/Studio-Project/TheHouseWatches/Intermediate/Build/Win64/x64/TheHouseWatchesEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
+"C:/Users/laure/OneDrive/Desktop/TheHouseWatches/Studio-Project/TheHouseWatches/Intermediate/Build/Win64/x64/UnrealEditor/Development/TheHouseWatches/TestCharacter.gen.cpp.obj"
+"C:/Users/laure/OneDrive/Desktop/TheHouseWatches/Studio-Project/TheHouseWatches/Intermediate/Build/Win64/x64/UnrealEditor/Development/TheHouseWatches/TestController.gen.cpp.obj"
+"C:/Users/laure/OneDrive/Desktop/TheHouseWatches/Studio-Project/TheHouseWatches/Intermediate/Build/Win64/x64/UnrealEditor/Development/TheHouseWatches/TheHouseWatches.init.gen.cpp.obj"
+"C:/Users/laure/OneDrive/Desktop/TheHouseWatches/Studio-Project/TheHouseWatches/Intermediate/Build/Win64/x64/UnrealEditor/Development/TheHouseWatches/TheHouseWatches.cpp.obj"
+"C:/Users/laure/OneDrive/Desktop/TheHouseWatches/Studio-Project/TheHouseWatches/Intermediate/Build/Win64/x64/UnrealEditor/Development/TheHouseWatches/PerModuleInline.gen.cpp.obj"
+"C:/Users/laure/OneDrive/Desktop/TheHouseWatches/Studio-Project/TheHouseWatches/Intermediate/Build/Win64/x64/UnrealEditor/Development/TheHouseWatches/TestCharacter.cpp.obj"
+"C:/Users/laure/OneDrive/Desktop/TheHouseWatches/Studio-Project/TheHouseWatches/Intermediate/Build/Win64/x64/UnrealEditor/Development/TheHouseWatches/TestController.cpp.obj"
+"C:/Users/laure/OneDrive/Desktop/TheHouseWatches/Studio-Project/TheHouseWatches/Intermediate/Build/Win64/x64/UnrealEditor/Development/TheHouseWatches/Default.rc2.res"
+"../Intermediate/Build/Win64/x64/UnrealEditor/Development/Engine/UnrealEditor-Engine.lib"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/Core/UnrealEditor-Core.lib"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/CoreUObject/UnrealEditor-CoreUObject.lib"
-"../Intermediate/Build/Win64/x64/UnrealEditor/Development/Engine/UnrealEditor-Engine.lib"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/InputCore/UnrealEditor-InputCore.lib"
 "../Plugins/EnhancedInput/Intermediate/Build/Win64/x64/UnrealEditor/Development/EnhancedInput/UnrealEditor-EnhancedInput.lib"
 "delayimp.lib"
@@ -70,6 +75,6 @@
 "synchronization.lib"
 "dwmapi.lib"
 "imm32.lib"
-/OUT:"C:/Users/laure/OneDrive/Documents/Unreal Projects/TheHouseWatches/Binaries/Win64/UnrealEditor-TheHouseWatches.dll"
-/PDB:"C:/Users/laure/OneDrive/Documents/Unreal Projects/TheHouseWatches/Binaries/Win64/UnrealEditor-TheHouseWatches.pdb"
+/OUT:"C:/Users/laure/OneDrive/Desktop/TheHouseWatches/Studio-Project/TheHouseWatches/Binaries/Win64/UnrealEditor-TheHouseWatches.dll"
+/PDB:"C:/Users/laure/OneDrive/Desktop/TheHouseWatches/Studio-Project/TheHouseWatches/Binaries/Win64/UnrealEditor-TheHouseWatches.pdb"
 /ignore:4078

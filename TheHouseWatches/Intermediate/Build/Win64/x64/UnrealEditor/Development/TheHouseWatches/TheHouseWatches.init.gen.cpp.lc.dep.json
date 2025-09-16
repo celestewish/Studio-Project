@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\laure\\onedrive\\desktop\\thehousewatches\\studio-project\\thehousewatches\\intermediate\\build\\win64\\unrealeditor\\inc\\thehousewatches\\uht\\thehousewatches.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\laure\\onedrive\\desktop\\thehousewatches\\studio-project\\thehousewatches\\intermediate\\build\\win64\\x64\\thehousewatcheseditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\laure\\onedrive\\desktop\\thehousewatches\\studio-project\\thehousewatches\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\thehousewatches\\definitions.thehousewatches.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

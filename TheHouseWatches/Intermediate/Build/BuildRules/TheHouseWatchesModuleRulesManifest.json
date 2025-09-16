@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\laure\\OneDrive\\Documents\\Unreal Projects\\TheHouseWatches\\Source\\TheHouseWatches\\TheHouseWatches.Build.cs",
-		"C:\\Users\\laure\\OneDrive\\Documents\\Unreal Projects\\TheHouseWatches\\Source\\TheHouseWatches.Target.cs",
-		"C:\\Users\\laure\\OneDrive\\Documents\\Unreal Projects\\TheHouseWatches\\Source\\TheHouseWatchesEditor.Target.cs"
+		"C:\\Users\\laure\\OneDrive\\Desktop\\TheHouseWatches\\Studio-Project\\TheHouseWatches\\Source\\TheHouseWatches\\TheHouseWatches.Build.cs",
+		"C:\\Users\\laure\\OneDrive\\Desktop\\TheHouseWatches\\Studio-Project\\TheHouseWatches\\Source\\TheHouseWatches.Target.cs",
+		"C:\\Users\\laure\\OneDrive\\Desktop\\TheHouseWatches\\Studio-Project\\TheHouseWatches\\Source\\TheHouseWatchesEditor.Target.cs"
 	],
 	"EngineVersion": "5.6.1"
 }

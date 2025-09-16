@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.TheHouseWatches.gen.cpp.obj": [
+			"TestController.gen.cpp.obj",
+			"TheHouseWatches.init.gen.cpp.obj"
+		]
+	}
+}
