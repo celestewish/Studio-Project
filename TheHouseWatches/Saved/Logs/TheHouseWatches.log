@@ -2503,3 +2503,221 @@ Recommended: 560.81 or latest driver available
 [2025.09.25-19.04.08:508][  9]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
 		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
 		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.25-19.05.50:091][315]LogShaderCompilers: Display: ================================================
+[2025.09.25-19.05.50:091][315]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.09.25-19.05.50:091][315]LogShaderCompilers: Display: Total job queries 459, among them cache hits 33 (7.19%), DDC hits 343 (74.73%), Duplicates 78 (16.99%)
+[2025.09.25-19.05.50:092][315]LogShaderCompilers: Display: Tracking 348 distinct input hashes that result in 241 distinct outputs (69.25%)
+[2025.09.25-19.05.50:092][315]LogShaderCompilers: Display: RAM used: 3.33 MiB of 819.20 MiB budget. Usage: 0.41%
+[2025.09.25-19.05.50:092][315]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.09.25-19.05.50:092][315]LogShaderCompilers: Display: Shaders Compiled: 5
+[2025.09.25-19.05.50:092][315]LogShaderCompilers: Display: Jobs assigned 5, completed 5 (100%)
+[2025.09.25-19.05.50:092][315]LogShaderCompilers: Display: Average time worker was idle: 481.51 s
+[2025.09.25-19.05.50:092][315]LogShaderCompilers: Display: Time job spent in pending queue: average 0.03 s, longest 0.09 s
+[2025.09.25-19.05.50:092][315]LogShaderCompilers: Display: Job execution time: average 1.16 s, max 2.12 s
+[2025.09.25-19.05.50:092][315]LogShaderCompilers: Display: Job life time (pending + execution): average 1.19 s, max 2.14
+[2025.09.25-19.05.50:092][315]LogShaderCompilers: Display: Shader code size: total 44.52 KiB, numShaders 5, average 8.903 KiB, min 6.137 KiB, max 13.762 KiB
+[2025.09.25-19.05.50:092][315]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.81 s
+[2025.09.25-19.05.50:093][315]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.09.25-19.05.50:093][315]LogShaderCompilers: Display: Jobs were issued in 5 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.09.25-19.05.50:093][315]LogShaderCompilers: Display: Average processing rate: 1.31 jobs/sec
+[2025.09.25-19.05.50:093][315]LogShaderCompilers: Display: Total thread time: 3.942 s
+[2025.09.25-19.05.50:093][315]LogShaderCompilers: Display: Total thread preprocess time: 9.76 s
+[2025.09.25-19.05.50:093][315]LogShaderCompilers: Display: Percentage time preprocessing: 247.57%
+[2025.09.25-19.05.50:093][315]LogShaderCompilers: Display: Effective parallelization: 1.03 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.129307
+[2025.09.25-19.05.50:093][315]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.09.25-19.05.50:093][315]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    1 times, average 1.65 sec, max 1.65 sec, min 1.65 sec)
+[2025.09.25-19.05.50:093][315]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    3 times, average 0.63 sec, max 0.83 sec, min 0.53 sec)
+[2025.09.25-19.05.50:094][315]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.39 sec, max 0.39 sec, min 0.39 sec)
+[2025.09.25-19.05.50:094][315]LogShaderCompilers: Display:                        FRayTracingDynamicGeometryConverterCS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.09.25-19.05.50:094][315]LogShaderCompilers: Display:                                             FDebugViewModeVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.09.25-19.05.50:094][315]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.09.25-19.05.50:094][315]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 48.25% of total time (compiled    3 times, average 0.63 sec, max 0.83 sec, min 0.53 sec)
+[2025.09.25-19.05.50:094][315]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 41.80% of total time (compiled    1 times, average 1.65 sec, max 1.65 sec, min 1.65 sec)
+[2025.09.25-19.05.50:094][315]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 9.95% of total time (compiled    1 times, average 0.39 sec, max 0.39 sec, min 0.39 sec)
+[2025.09.25-19.05.50:094][315]LogShaderCompilers: Display:                                             FDebugViewModeVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.09.25-19.05.50:094][315]LogShaderCompilers: Display:                        FRayTracingDynamicGeometryConverterCS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.09.25-19.05.50:094][315]LogShaderCompilers: Display: === Material stats ===
+[2025.09.25-19.05.50:095][315]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.09.25-19.05.50:095][315]LogShaderCompilers: Display: Materials Translated:    140
+[2025.09.25-19.05.50:095][315]LogShaderCompilers: Display: Material Total Translate Time: 0.18 s
+[2025.09.25-19.05.50:095][315]LogShaderCompilers: Display: Material Translation Only: 0.07 s (38%)
+[2025.09.25-19.05.50:095][315]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.09.25-19.05.50:095][315]LogShaderCompilers: Display: Material Cache Hits: 11 (8%)
+[2025.09.25-19.05.50:095][315]LogShaderCompilers: Display: ================================================
+[2025.09.25-19.05.58:432][341]LogPSOHitching: Encountered 300 PSO creation hitches so far (153 graphics, 147 compute). 0 of them were precached.
+[2025.09.25-19.06.07:155][455]Cmd: DELETE
+[2025.09.25-19.06.07:155][455]Cmd: ACTOR DELETE
+[2025.09.25-19.06.07:165][455]LogEditorActor: Deleted Actor: PlayerStart
+[2025.09.25-19.06.07:288][455]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2025.09.25-19.06.07:296][455]LogEditorActor: Deleted 1 Actors (0.139 secs)
+[2025.09.25-19.06.28:369][621]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.CameraActor
+[2025.09.25-19.06.28:369][621]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.CameraActor
+[2025.09.25-19.06.28:384][621]LogActorFactory: Actor Factory spawned Class /Script/Engine.CameraActor as actor: CameraActor /Game/AidanScene.AidanScene:PersistentLevel.CameraActor_0
+[2025.09.25-19.06.28:385][621]LogActorFactory: Actor Factory spawned Class /Script/Engine.CameraActor as actor: CameraActor /Game/AidanScene.AidanScene:PersistentLevel.CameraActor_0
+[2025.09.25-19.06.32:862][641]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.25-19.06.33:915][641]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.09.25-19.06.33:999][641]LogSavePackage: Moving output files for package: /Game/AidanScene
+[2025.09.25-19.06.34:005][641]LogSavePackage: Moving '../../../../../../Users/aidan/OneDrive/Coding/TheHouseWatches/Studio-Project/TheHouseWatches/Saved/AidanScene07DB67CF4CD68EA18C346F8A62DB3DC5.tmp' to '../../../../../../Users/aidan/OneDrive/Coding/TheHouseWatches/Studio-Project/TheHouseWatches/Content/AidanScene.umap'
+[2025.09.25-19.06.34:071][641]LogFileHelpers: Saving map 'AidanScene' took 0.359
+[2025.09.25-19.06.34:474][641]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.61 sec (total: 15.8 sec)
+[2025.09.25-19.06.35:015][641]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.25-19.06.35:015][641]LogContentValidation: Enabled validators:
+[2025.09.25-19.06.35:015][641]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.25-19.06.35:016][641]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.25-19.06.35:016][641]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.25-19.06.35:016][641]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.25-19.06.35:016][641]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.25-19.06.35:016][641]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.25-19.06.35:016][641]AssetCheck: /Game/AidanScene Validating asset
+[2025.09.25-19.06.42:576][726]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.Actor
+[2025.09.25-19.06.42:576][726]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.Actor
+[2025.09.25-19.06.42:587][726]LogActorFactory: Actor Factory spawned Class /Script/Engine.Actor as actor: Actor /Game/AidanScene.AidanScene:PersistentLevel.Actor_0
+[2025.09.25-19.06.42:587][726]LogActorFactory: Actor Factory spawned Class /Script/Engine.Actor as actor: Actor /Game/AidanScene.AidanScene:PersistentLevel.Actor_0
+[2025.09.25-19.06.48:663][864]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2025.09.25-19.06.59:027][ 64]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1351.061523
+[2025.09.25-19.06.59:496][ 67]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-19.06.59:497][ 67]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1351.349854, Update Interval: 318.637054
+[2025.09.25-19.07.08:483][100]Cmd: TRANSACTION UNDO
+[2025.09.25-19.07.08:483][100]LogEditorTransaction: Undo Move Elements
+[2025.09.25-19.07.28:698][343]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.25-19.07.29:338][343]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.09.25-19.07.29:396][343]LogSavePackage: Moving output files for package: /Game/AidanScene
+[2025.09.25-19.07.29:400][343]LogSavePackage: Moving '../../../../../../Users/aidan/OneDrive/Coding/TheHouseWatches/Studio-Project/TheHouseWatches/Saved/AidanSceneBE601880476FE5841022AA8FF9ECCF23.tmp' to '../../../../../../Users/aidan/OneDrive/Coding/TheHouseWatches/Studio-Project/TheHouseWatches/Content/AidanScene.umap'
+[2025.09.25-19.07.29:454][343]LogFileHelpers: Saving map 'AidanScene' took 0.320
+[2025.09.25-19.07.29:550][343]LogFileHelpers: InternalPromptForCheckoutAndSave took 850.397 ms (total: 16.7 sec)
+[2025.09.25-19.07.30:159][343]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.25-19.07.30:159][343]LogContentValidation: Enabled validators:
+[2025.09.25-19.07.30:160][343]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.25-19.07.30:160][343]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.25-19.07.30:160][343]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.25-19.07.30:160][343]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.25-19.07.30:160][343]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.25-19.07.30:160][343]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.25-19.07.30:161][343]AssetCheck: /Game/AidanScene Validating asset
+[2025.09.25-19.07.59:217][540]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.25-19.07.59:901][540]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2025.09.25-19.07.59:987][540]LogSavePackage: Moving output files for package: /Game/AidanScene
+[2025.09.25-19.07.59:992][540]LogSavePackage: Moving '../../../../../../Users/aidan/OneDrive/Coding/TheHouseWatches/Studio-Project/TheHouseWatches/Saved/AidanScene5CAF46FF4C0B757D53549FBD6A3969D8.tmp' to '../../../../../../Users/aidan/OneDrive/Coding/TheHouseWatches/Studio-Project/TheHouseWatches/Content/AidanScene.umap'
+[2025.09.25-19.08.00:050][540]LogFileHelpers: Saving map 'AidanScene' took 0.331
+[2025.09.25-19.08.00:593][540]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.37 sec (total: 18.1 sec)
+[2025.09.25-19.08.01:116][540]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.25-19.08.01:116][540]LogContentValidation: Enabled validators:
+[2025.09.25-19.08.01:117][540]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.25-19.08.01:117][540]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.25-19.08.01:117][540]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.25-19.08.01:117][540]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.25-19.08.01:117][540]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.25-19.08.01:117][540]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.25-19.08.01:117][540]AssetCheck: /Game/AidanScene Validating asset
+[2025.09.25-19.08.50:425][770]LogShaderCompilers: Display: ================================================
+[2025.09.25-19.08.50:425][770]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.09.25-19.08.50:425][770]LogShaderCompilers: Display: Total job queries 463, among them cache hits 33 (7.13%), DDC hits 346 (74.73%), Duplicates 78 (16.85%)
+[2025.09.25-19.08.50:425][770]LogShaderCompilers: Display: Tracking 352 distinct input hashes that result in 244 distinct outputs (69.32%)
+[2025.09.25-19.08.50:425][770]LogShaderCompilers: Display: RAM used: 3.34 MiB of 819.20 MiB budget. Usage: 0.41%
+[2025.09.25-19.08.50:426][770]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.09.25-19.08.50:426][770]LogShaderCompilers: Display: Shaders Compiled: 6
+[2025.09.25-19.08.50:426][770]LogShaderCompilers: Display: Jobs assigned 6, completed 6 (100%)
+[2025.09.25-19.08.50:426][770]LogShaderCompilers: Display: Average time worker was idle: 376.51 s
+[2025.09.25-19.08.50:426][770]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.09 s
+[2025.09.25-19.08.50:426][770]LogShaderCompilers: Display: Job execution time: average 1.20 s, max 2.12 s
+[2025.09.25-19.08.50:426][770]LogShaderCompilers: Display: Job life time (pending + execution): average 1.24 s, max 2.14
+[2025.09.25-19.08.50:426][770]LogShaderCompilers: Display: Shader code size: total 52.664 KiB, numShaders 6, average 8.777 KiB, min 6.137 KiB, max 13.762 KiB
+[2025.09.25-19.08.50:426][770]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 5.26 s
+[2025.09.25-19.08.50:426][770]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.09.25-19.08.50:426][770]LogShaderCompilers: Display: Jobs were issued in 6 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.09.25-19.08.50:426][770]LogShaderCompilers: Display: Average processing rate: 1.14 jobs/sec
+[2025.09.25-19.08.50:426][770]LogShaderCompilers: Display: Total thread time: 4.869 s
+[2025.09.25-19.08.50:427][770]LogShaderCompilers: Display: Total thread preprocess time: 9.997 s
+[2025.09.25-19.08.50:427][770]LogShaderCompilers: Display: Percentage time preprocessing: 205.32%
+[2025.09.25-19.08.50:427][770]LogShaderCompilers: Display: Effective parallelization: 0.93 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.115776
+[2025.09.25-19.08.50:427][770]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.09.25-19.08.50:427][770]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    1 times, average 1.65 sec, max 1.65 sec, min 1.65 sec)
+[2025.09.25-19.08.50:427][770]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    4 times, average 0.71 sec, max 0.93 sec, min 0.53 sec)
+[2025.09.25-19.08.50:427][770]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.39 sec, max 0.39 sec, min 0.39 sec)
+[2025.09.25-19.08.50:427][770]LogShaderCompilers: Display:                        FRayTracingDynamicGeometryConverterCS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.09.25-19.08.50:427][770]LogShaderCompilers: Display:                                             FDebugViewModeVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.09.25-19.08.50:427][770]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.09.25-19.08.50:427][770]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 58.10% of total time (compiled    4 times, average 0.71 sec, max 0.93 sec, min 0.53 sec)
+[2025.09.25-19.08.50:427][770]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 33.84% of total time (compiled    1 times, average 1.65 sec, max 1.65 sec, min 1.65 sec)
+[2025.09.25-19.08.50:427][770]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 8.05% of total time (compiled    1 times, average 0.39 sec, max 0.39 sec, min 0.39 sec)
+[2025.09.25-19.08.50:427][770]LogShaderCompilers: Display:                                             FDebugViewModeVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.09.25-19.08.50:427][770]LogShaderCompilers: Display:                        FRayTracingDynamicGeometryConverterCS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.09.25-19.08.50:428][770]LogShaderCompilers: Display: === Material stats ===
+[2025.09.25-19.08.50:428][770]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.09.25-19.08.50:428][770]LogShaderCompilers: Display: Materials Translated:    140
+[2025.09.25-19.08.50:428][770]LogShaderCompilers: Display: Material Total Translate Time: 0.18 s
+[2025.09.25-19.08.50:428][770]LogShaderCompilers: Display: Material Translation Only: 0.07 s (38%)
+[2025.09.25-19.08.50:428][770]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.09.25-19.08.50:428][770]LogShaderCompilers: Display: Material Cache Hits: 11 (8%)
+[2025.09.25-19.08.50:428][770]LogShaderCompilers: Display: ================================================
+[2025.09.25-19.09.14:021][861]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.25-19.09.15:524][861]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2025.09.25-19.09.15:596][861]LogSavePackage: Moving output files for package: /Game/AidanScene
+[2025.09.25-19.09.15:596][861]LogSavePackage: Moving '../../../../../../Users/aidan/OneDrive/Coding/TheHouseWatches/Studio-Project/TheHouseWatches/Saved/AidanScene7A3E651C474BBE9E30BEFEAE7427516E.tmp' to '../../../../../../Users/aidan/OneDrive/Coding/TheHouseWatches/Studio-Project/TheHouseWatches/Content/AidanScene.umap'
+[2025.09.25-19.09.15:618][861]LogFileHelpers: Saving map 'AidanScene' took 0.339
+[2025.09.25-19.09.16:089][861]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.06 sec (total: 20.1 sec)
+[2025.09.25-19.09.16:584][861]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.25-19.09.16:584][861]LogContentValidation: Enabled validators:
+[2025.09.25-19.09.16:584][861]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.25-19.09.16:584][861]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.25-19.09.16:584][861]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.25-19.09.16:584][861]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.25-19.09.16:585][861]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.25-19.09.16:585][861]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.25-19.09.16:585][861]AssetCheck: /Game/AidanScene Validating asset
+[2025.09.25-19.09.22:315][892]Cmd: TRANSACTION UNDO
+[2025.09.25-19.09.22:315][892]LogEditorTransaction: Undo Move Elements
+[2025.09.25-19.09.35:368][962]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.25-19.09.36:271][962]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.09.25-19.09.36:342][962]LogSavePackage: Moving output files for package: /Game/AidanScene
+[2025.09.25-19.09.36:347][962]LogSavePackage: Moving '../../../../../../Users/aidan/OneDrive/Coding/TheHouseWatches/Studio-Project/TheHouseWatches/Saved/AidanScene2ACC793A4F3DA19DDB613BAF7C99191D.tmp' to '../../../../../../Users/aidan/OneDrive/Coding/TheHouseWatches/Studio-Project/TheHouseWatches/Content/AidanScene.umap'
+[2025.09.25-19.09.36:404][962]LogFileHelpers: Saving map 'AidanScene' took 0.369
+[2025.09.25-19.09.36:538][962]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.17 sec (total: 21.3 sec)
+[2025.09.25-19.09.37:032][962]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.25-19.09.37:032][962]LogContentValidation: Enabled validators:
+[2025.09.25-19.09.37:032][962]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.25-19.09.37:032][962]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.25-19.09.37:032][962]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.25-19.09.37:032][962]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.25-19.09.37:032][962]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.25-19.09.37:032][962]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.25-19.09.37:033][962]AssetCheck: /Game/AidanScene Validating asset
+[2025.09.25-19.09.49:859][ 60]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.TargetPoint
+[2025.09.25-19.09.49:859][ 60]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.TargetPoint
+[2025.09.25-19.09.49:869][ 60]LogActorFactory: Actor Factory spawned Class /Script/Engine.TargetPoint as actor: TargetPoint /Game/AidanScene.AidanScene:PersistentLevel.TargetPoint_0
+[2025.09.25-19.09.49:870][ 60]LogActorFactory: Actor Factory spawned Class /Script/Engine.TargetPoint as actor: TargetPoint /Game/AidanScene.AidanScene:PersistentLevel.TargetPoint_0
+[2025.09.25-19.10.04:101][128]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.25-19.10.05:206][128]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.09.25-19.10.05:289][128]LogSavePackage: Moving output files for package: /Game/AidanScene
+[2025.09.25-19.10.05:293][128]LogSavePackage: Moving '../../../../../../Users/aidan/OneDrive/Coding/TheHouseWatches/Studio-Project/TheHouseWatches/Saved/AidanScene66624430484CFE19ED3ACB834C8E7A5D.tmp' to '../../../../../../Users/aidan/OneDrive/Coding/TheHouseWatches/Studio-Project/TheHouseWatches/Content/AidanScene.umap'
+[2025.09.25-19.10.05:321][128]LogFileHelpers: Saving map 'AidanScene' took 0.297
+[2025.09.25-19.10.05:371][128]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.26 sec (total: 22.6 sec)
+[2025.09.25-19.10.05:789][128]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.25-19.10.05:789][128]LogContentValidation: Enabled validators:
+[2025.09.25-19.10.05:790][128]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.25-19.10.05:790][128]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.25-19.10.05:790][128]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.25-19.10.05:790][128]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.25-19.10.05:790][128]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.25-19.10.05:790][128]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.25-19.10.05:791][128]AssetCheck: /Game/AidanScene Validating asset
+[2025.09.25-19.10.07:486][155]Cmd: DUPLICATE
+[2025.09.25-19.10.07:486][155]Cmd: ACTOR DUPLICATE
+[2025.09.25-19.10.15:006][256]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.25-19.10.15:592][256]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2025.09.25-19.10.15:636][256]LogSavePackage: Moving output files for package: /Game/AidanScene
+[2025.09.25-19.10.15:639][256]LogSavePackage: Moving '../../../../../../Users/aidan/OneDrive/Coding/TheHouseWatches/Studio-Project/TheHouseWatches/Saved/AidanSceneA3603BA64DC5645ADD3BBEA2E70BA425.tmp' to '../../../../../../Users/aidan/OneDrive/Coding/TheHouseWatches/Studio-Project/TheHouseWatches/Content/AidanScene.umap'
+[2025.09.25-19.10.15:685][256]LogFileHelpers: Saving map 'AidanScene' took 0.311
+[2025.09.25-19.10.15:778][256]LogFileHelpers: InternalPromptForCheckoutAndSave took 772.403 ms (total: 23.4 sec)
+[2025.09.25-19.10.16:110][256]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.25-19.10.16:110][256]LogContentValidation: Enabled validators:
+[2025.09.25-19.10.16:110][256]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.25-19.10.16:110][256]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.25-19.10.16:110][256]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.25-19.10.16:110][256]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.25-19.10.16:110][256]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.25-19.10.16:110][256]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.25-19.10.16:111][256]AssetCheck: /Game/AidanScene Validating asset
+[2025.09.25-19.12.36:616][952]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1688.649536
+[2025.09.25-19.12.37:621][955]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-19.12.37:621][955]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1689.320068, Update Interval: 338.806732
