@@ -2721,3 +2721,27 @@ Recommended: 560.81 or latest driver available
 [2025.09.25-19.12.36:616][952]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1688.649536
 [2025.09.25-19.12.37:621][955]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.09.25-19.12.37:621][955]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1689.320068, Update Interval: 338.806732
+[2025.09.25-19.17.33:449][535]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.09.25-19.17.46:374][535]LogSlate: Window 'Create Blank Blueprint Class' being destroyed
+[2025.09.25-19.17.46:489][535]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AITest.AITest
+[2025.09.25-19.17.46:493][535]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2025.09.25-19.17.46:881][535]LogStreaming: Display: FlushAsyncLoading(609): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.25-19.17.50:697][535]LogStaticMesh: Display: Building static mesh PhAT_FloorBox (Required Memory Estimate: 0.024887 MB)...
+[2025.09.25-19.17.50:700][535]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/PhAT_FloorBox.PhAT_FloorBox
+[2025.09.25-19.17.56:650][592]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.25-19.17.57:274][592]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AITest] ([2] browsable assets)...
+[2025.09.25-19.17.57:274][592]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AITest]
+[2025.09.25-19.17.57:274][592]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AITest" FILE="../../../../../../Users/aidan/OneDrive/Coding/TheHouseWatches/Studio-Project/TheHouseWatches/Content/Blueprints/AITest.uasset" SILENT=true
+[2025.09.25-19.17.57:324][592]LogSavePackage: Moving output files for package: /Game/Blueprints/AITest
+[2025.09.25-19.17.57:324][592]LogSavePackage: Moving '../../../../../../Users/aidan/OneDrive/Coding/TheHouseWatches/Studio-Project/TheHouseWatches/Saved/AITest4E8A4F9F46D2FBE8A8C5BBA3EF3CC2C6.tmp' to '../../../../../../Users/aidan/OneDrive/Coding/TheHouseWatches/Studio-Project/TheHouseWatches/Content/Blueprints/AITest.uasset'
+[2025.09.25-19.17.57:469][592]LogFileHelpers: InternalPromptForCheckoutAndSave took 819.231 ms (total: 24.2 sec)
+[2025.09.25-19.17.57:760][592]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.25-19.17.57:760][592]LogContentValidation: Enabled validators:
+[2025.09.25-19.17.57:760][592]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.25-19.17.57:760][592]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.25-19.17.57:760][592]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.25-19.17.57:760][592]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.25-19.17.57:760][592]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.25-19.17.57:760][592]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.25-19.17.57:760][592]AssetCheck: /Game/Blueprints/AITest Validating asset
+[2025.09.25-19.17.57:991][592]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/aidan/OneDrive/Coding/TheHouseWatches/Studio-Project/TheHouseWatches/Saved/SourceControl/UncontrolledChangelists.json
